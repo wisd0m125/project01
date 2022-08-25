@@ -1,0 +1,546 @@
+@charset "UTF-8";
+#wrap {
+  margin: auto;
+}
+#main_content {
+  margin: auto;
+  width: 100%;
+}
+#header {
+  margin: auto;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  left: 0;
+  word-break: break-all;
+  background: #f5ecec;
+}
+#header .header_area {
+  max-width: 1400px;
+  display: block;
+  margin: auto;
+}
+#header .util_m {
+  width: 100%;
+  height: 75px;
+  margin: auto;
+  border-bottom: 1px solid #acacac;
+}
+#header .logo {
+  background: url(../img/arko_logo.png) no-repeat;
+  background-size: cover;
+  width: 272px;
+  height: 30px;
+  margin-top: 20px;
+}
+#header .util {
+  width: 315px;
+  height: 100%;
+}
+#header li {
+  display: inline-block;
+  justify-content: center;
+  padding: /* 0px 20px 0px 5px; */ 0px 0px 0px 20px;
+}
+#header .util li a {
+  line-height: 5em;
+  font-size: 16px;
+}
+#header .gnb_link {
+  width: 46px;
+  height: 46px;
+  line-height: 5em;
+  border-radius: 100%;
+  background: #21273f;
+  text-indent: -99999px;
+  margin-left: 5px;
+}
+
+/* -------gnb------- */
+#header .header_area .openMOgnb {
+  display: none;
+}
+.gnb {
+  width: 100%;
+  height: 56px;
+  background: #e9c9c9;
+}
+.gnb_list {
+  margin-left: 40px;
+}
+.gnb_list li {
+  display: inline-block;
+}
+.gnb_list a {
+  display: block;
+  line-height: 2.5em;
+  letter-spacing: -1px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 0px 0px 20px;
+  margin: 3px 18px;
+}
+.gnb_search li {
+  margin: auto;
+  background: url(../img/icon_search.png) 100% no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 20px 20px;
+  text-indent: -9999px;
+  margin-top: 6px;
+}
+.gnb_search li:nth-child(2) {
+  background: url(../img/icon_hamburger.png) 100% no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 20px 20px;
+  text-indent: -9999px;
+}
+
+/* -------section01------- */
+.banner {
+  position: relative;
+  top: 130px;
+  width: 100%;
+  height: 440px;
+  background: #21273f;
+  z-index: 1;
+}
+.banner .main_banner {
+  max-width: 1400px;
+  background: url(../img/main_background01.jpg) center no-repeat;
+  margin: 0 auto;
+  height: 100%;
+  opacity: 1;
+}
+/* -------slide01------- */
+.main_banner .swiper {
+  float: right;
+  width: 63%;
+  height: 100%;
+}
+.main_banner .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: block;
+  width: 440px;
+  height: 506px;
+  object-fit: cover;
+}
+.main_banner .swiper-slides {
+  width: 440px;
+  height: 506px;
+}
+.main_banner .swiper-slide a {
+  display: inline-block;
+  padding: 60px 13px 0px 13px;
+
+}
+.imglist1 .slide_pic01,
+.slide_pic02,
+.slide_pic03,
+.slide_pic04,
+.slide_pic05,
+.slide_pic06,
+.slide_pic07,
+.slide_pic08,
+.slide_pic09 {
+  background: url(../img/arko_banner01.jpg) center no-repeat;
+  background-size: cover;
+  width: 409px;
+  height: 415px;
+}
+.imglist1 .slide_pic02 {
+  background: url(../img/arko_banner02.jpg) center no-repeat;
+  background-size: cover;
+}
+.imglist1 .slide_pic03 {
+  background: url(../img/arko_banner03.jpg) center no-repeat;
+  background-size: cover;
+}
+.imglist1 .slide_pic04 {
+  background: url(../img/arko_banner04.jpg) center no-repeat;
+  background-size: cover;
+}
+.imglist1 .slide_pic05 {
+  background: url(../img/arko_banner05.gif) center no-repeat;
+  background-size: cover;
+}
+.imglist1 .slide_pic06 {
+  background: url(../img/arko_banner06.gif) center no-repeat;
+  background-size: cover;
+}
+.imglist1 .slide_pic07 {
+  background: url(../img/arko_banner07.jpg) center no-repeat;
+  background-size: cover;
+}
+.imglist1 .slide_pic08 {
+  background: url(../img/arko_banner08.gif) center no-repeat;
+  background-size: cover;
+}
+.imglist1 .slide_pic09 {
+  background: url(../img/arko_banner09.gif) center no-repeat;
+  background-size: cover;
+}
+/* -------sec01------- */
+#sec01 {
+  padding: 200px 0px 100px;
+  width: 100%;
+  height: 730px;
+  background: #f5f6fa;
+}
+.public_area {
+  max-width: 1400px;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+}
+.public_area .btn_list {
+  margin: 0 auto 50px;
+  width: 624px;
+}
+.public_area .btn_list li {
+  width: 207px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+.public_area .btn_list li a {
+  font-size: 20px;
+  line-height: 3.5rem;
+}
+.public_cont {
+  width: 1400px;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.public_cont .public_list {
+  margin: auto;
+  display: flex;
+}
+.public_list1 {
+  width: 230px;
+  height: 250px;
+  margin: 0px 25px 0px;
+}
+.Plist1_1 {
+  padding: 0px 26px;
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  text-align: center;
+}
+.Plist1_2 {
+  display: block;
+  position: relative;
+  padding: 0 15px;
+  top: -35px;
+  left: -50px;
+  width: 69px;
+  height: 69px;
+  background-color: #383d53;
+}
+.Plist1_3 {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  width: 57px;
+  border-bottom: 2px solid #009a57;
+  font-size: 16px;
+  color: #009a57;
+  line-height: 1;
+}
+.Plist1_4 {
+  display: block;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.4;
+  height: 47px;
+  overflow: hidden;
+}
+.Plist1_5 {
+  margin-bottom: 15px;
+  color: #808080;
+  font-size: 14px;
+  line-height: 1;
+}
+.Plist1_1 a {
+  display: block;
+  color: #383d53;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+/* -------sec02------- */
+#sec02 {
+  background-color: #efefef;
+  height: 1100px;
+}
+.container {
+  max-width: 1400px;
+  width:100%;
+}
+.press_release {
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 2rem;
+}
+.press_release .press_tit_area {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-bottom: 35px;
+}
+.press_release .press_tit_area .sub_title {
+  display: block;
+  font-size: 18px;
+}
+
+/* -------slide02------- */
+.press_release .broad_slide {
+  width: 100%;
+  height: 574px;
+}
+.press_release .broad_slide .imglist2 {
+  display: flex;
+  position: relative;
+}
+.press_release .broad_slide .imglist2 .box {
+  width: 700px;
+  height: 370px;
+  background: #ffffff;
+  position: absolute;
+  z-index: 99;
+  top: 60px;
+  padding: 10px 40px;
+  box-shadow: 5px 5px 10px 0px rgba(19, 19, 22, 0.4);
+}
+.broad_slide .imglist2 a .box_tit {
+  display: block;
+  margin: 10px 0px 30px;
+  font-size: 36px;
+  color: #333;
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 5px 0px 0px 5px;
+  word-break: keep-all;
+}
+.broad_slide .imglist2 a .box_cont {
+  display: block;
+  margin: 5px 0px 15px;
+  font-size: 15px;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+.broad_slide .imglist2 a .more {
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 1px solid #383d53;
+  padding: 10px 10px;
+  width: 70px;
+  height: 22px;
+}
+.fa-angles-right {
+  width: 40px;
+  height:30px;
+
+}
+.imglist2 .slide_pic11,.slide_pic12,.slide_pic13,.slide_pic14,.slide_pic15,.slide_pic16,.slide_pic17 {
+  background: url(../img/banner01.jpg) no-repeat center 100% ;
+  background-size: cover;
+  width: 750px;
+  height: 506px;
+  position: absolute;
+  right: 0;
+}
+.slide_pic12{
+  background: url(../img/banner02.jpg) no-repeat center 100%;
+  background-size: cover;
+}
+.slide_pic13{
+  background: url(../img/banner03.jpg) no-repeat center 100%;
+  background-size: cover;
+}
+.slide_pic14{
+  background: url(../img/arko_banner04.jpg) no-repeat center 100%;
+  background-size: cover;
+}
+.slide_pic15{
+  background: url(../img/banner05.jpg) no-repeat center 100%;
+  background-size: cover;
+}
+.slide_pic16{
+  background: url(../img/banner06.jpg) no-repeat center 100%;
+  background-size: cover;
+}
+.slide_pic17{
+  background: url(../img/banner07.jpg) no-repeat center 100%;
+  background-size: cover;
+}
+/* ----- */
+.press_release .info_banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 306px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.press_release .info_banner li {
+  width: 360px;
+  height: 118px;
+}
+.press_release .info_banner li:first-child {
+  background: url(../img/about_arko.png) no-repeat;
+}
+.press_release .info_banner li:nth-child(2) {
+  background: url(../img/arko_member.png) no-repeat;
+}
+.press_release .info_banner li:nth-child(2) {
+  background: url(../img/arko_org.png) no-repeat;
+}
+.press_release .info_banner li:nth-child(3) {
+  background: url(../img/arko_search.png) no-repeat;
+}
+.press_release .info_banner li:nth-child(4) {
+  background: url(../img/arko_data.png) no-repeat;
+}
+.press_release .info_banner li:nth-child(5) {
+  background: url(../img/about_arko.png) no-repeat;
+}
+.press_release .info_banner li:last-child {
+  background: url(../img/arko_contact.png) no-repeat;
+}
+
+/* -------sec03------- */
+#sec03 {
+  margin: auto;
+  padding-top: 50px;
+}
+.business {
+  max-width: 1400px;
+  width:100%;
+  height: 590px;
+  padding: 50px 0px;
+  margin: auto;
+  display: flex;
+  
+}
+.link_box_area{
+  max-width: 680px;
+  height: 100%;
+}
+.box1, .box2 {
+  margin-top: 35px;
+}
+.box1_area, .box2_area{
+  width: 340px;
+  height: 100%;
+  padding: 50px 50px;
+}
+.box1_list, .box2_list  {
+  width: 240px;
+  height: 333px;
+}
+.box1 h3, .box2 h3 {
+  font-weight: bold;
+  font-size: 48px;
+  color: #000;
+  padding: 20px 0px;
+  line-height: 1;
+}
+.box1_list li, .box2_list li{
+  margin-top: 20px;
+}
+.box1_list li a, .box2_list li a{
+  background-size: cover;
+  display: block;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.business .link_box_area .box1 {
+  background: url(../img/arko_menu_bg01.jpg) no-repeat;
+  background-size: cover;
+  width: 340px;
+  height: 550px;
+}
+.business .link_box_area .box2 {
+  background: url(../img/arko_menu_bg02.jpg) no-repeat;
+  background-size: cover;
+  width: 340px;
+  height: 550px;
+  margin-top: 20px;
+}
+
+
+/* -------tab02------- */
+.business .board_tab_area {
+  width: 685px;
+  height: 60px;
+  background: #b1b1b1;
+  text-align: center;
+  font-size: 21px;
+}
+.board_tab {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.board_tab_area .btn_area a {
+  display: inline-block;
+
+  height: 60px;
+  width: 180px;
+  font-size: 21px;
+  color: #fff;
+  line-height: 2.5;
+}
+.board_tab_area .btn_area a:last-child {
+  height: 60px;
+  width: 60px;
+}
+.board_tab_area .btn_area a:hover {
+  background: #383d53;
+}
+.panel_area {
+  height: 550px;
+  width: 685px;
+}
+.panel_area .panel_1 li {
+  float: left;
+  height: 58px;
+  width: 100%;
+  text-align: start;
+  padding: 0px 0px 0px 30px;
+  font-size: 16px;
+  line-height: 3;
+  border-bottom: 1px solid #383d53;
+}
+.panel_area .panel_1 span {
+  float: right;
+ line-height: 3;
+ font-size: 16px;
+  padding-right: 30px;
+}
